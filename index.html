@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>WIP</title>
-  </head>
-  <body>
-    <h1>W.I.P</h1>
-  </body>
+    <head>
+        <!--hello viewer, this is a "burner" account perse. this website is a joke for a friend's birthday. thanks!-->
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Злой фанат видеоигр</title>
+    </head>
+    <body>
+        <audio src="msgsend.wav" id="popup-sound" preload="auto"></audio>
+
+        <div class="container">
+            <img src="6423.gif" class="left"/>
+            <div class="main">
+                <h1>ЗЛОЙ ВИДЕОИГРА-БАТАН</h1>
+                <div class="content-container">
+                    <div class="leftcontent">
+                        <h2>Утечка игры скачать бесплатно Kringle-Life 3 Загрузить сейчас LEAK</h2>
+                        <iframe width="280" height="157" src="https://www.youtube.com/embed/0x7lQW-ZdyA?si=j8sfzBdl-oCfDkIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <a href="#" id="download-button"><img id="download" src="download.gif"/></a>
+                        <img  id="angry" src="angry.jpg"/>
+                    </div>
+                    <div class="rightcontent">
+                        <img id="side-img" src="flag.gif"/>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">LEAK</a>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">Zlaya igr</a>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">крингл-развлечение</a>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">супер игра</a>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">Zlaya igr</a>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">крингл-развлечение</a>
+                        <a href="https://youtu.be/0WjDrQ0IhBw?t=86">супер игра</a>
+         
+                        <div class="filler"></div>
+                         <img id="side-img" src="nikpod.gif"/>
+                         <img id="side-img" src="nikpod.gif"/>
+                         <img id="side-img" src="nikpod.gif"/>
+                         <img id="side-img" src="nikpod.gif"/>
+                    </div>
+                </div>
+            </div>
+            <img src="gigaz.gif" class="left"/>
+        </div>
+
+        <div id="popup">
+            <h1>ALERT</h1>
+            <button id="close-button">X</button>
+            <img id="kringle-alert" src="kringle.jpg"/>
+            <h2>HOT KRINGLES IN YOUR AREA</h2>
+            <h3><em>Kringle has sent you a text</em></h2>
+            <a href="https://youtu.be/0WjDrQ0IhBw?t=86">Accept?</a>
+        </div>
+    </body>
+    <script>
+        const downloadButton = document.getElementById("download-button");
+        const closePopUp = document.getElementById("close-button");
+
+        const audioSound = document.getElementById("popup-sound")
+
+        const modal = document.getElementById("popup");
+
+        downloadButton.addEventListener("click",() => {
+            if (downloadButton.getAttribute("href") == "#"){
+                modal.classList.add("open");
+                setTimeout(() => {
+                    downloadButton.setAttribute("href","https://chatgpt.com/");
+                }, 0.1);
+                audioSound.play();
+            }
+        });
+        closePopUp.addEventListener("click", () => {
+            modal.classList.remove("open");
+        });
+    </script>
 </html>
